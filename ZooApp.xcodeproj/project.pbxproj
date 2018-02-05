@@ -12,6 +12,8 @@
 		33906FDD202069140036A056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33906FDB202069140036A056 /* Main.storyboard */; };
 		33906FDF202069140036A056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33906FDE202069140036A056 /* Assets.xcassets */; };
 		33906FE2202069140036A056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33906FE0202069140036A056 /* LaunchScreen.storyboard */; };
+		33906FEA20206B960036A056 /* AnimalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33906FE920206B960036A056 /* AnimalsCell.swift */; };
+		33906FEC20206BB10036A056 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33906FEB20206BB10036A056 /* Animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		33906FDE202069140036A056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33906FE1202069140036A056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33906FE3202069140036A056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33906FE920206B960036A056 /* AnimalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsCell.swift; sourceTree = "<group>"; };
+		33906FEB20206BB10036A056 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				33906FDE202069140036A056 /* Assets.xcassets */,
 				33906FE0202069140036A056 /* LaunchScreen.storyboard */,
 				33906FE3202069140036A056 /* Info.plist */,
+				33906FE920206B960036A056 /* AnimalsCell.swift */,
+				33906FEB20206BB10036A056 /* Animals.swift */,
 			);
 			path = ZooApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33906FDA202069140036A056 /* ViewController.swift in Sources */,
+				33906FEC20206BB10036A056 /* Animals.swift in Sources */,
+				33906FEA20206B960036A056 /* AnimalsCell.swift in Sources */,
 				33906FD8202069140036A056 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYADQULRBU;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Animals.ZooApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYADQULRBU;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Animals.ZooApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
